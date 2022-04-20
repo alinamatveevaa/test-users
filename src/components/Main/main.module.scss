@@ -1,0 +1,6 @@
+@import '../../styles/mixin.scss';
+
+.wrapper {
+    @include flex-row-end;
+    align-items: baseline;
+}

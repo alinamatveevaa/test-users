@@ -1,0 +1,18 @@
+@import '../../styles/mixin.scss';
+
+.title {
+    @include title-style;
+    margin-bottom: 15px;
+}
+
+.right {
+    width: 420px;
+}
+
+.countUsers {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}

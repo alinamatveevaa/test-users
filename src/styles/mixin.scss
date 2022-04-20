@@ -1,0 +1,16 @@
+@mixin flex-row-end {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+@mixin title-style {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+@mixin hover-btns {
+    color: $blueColor;
+    background-color: transparent;
+    border:  1px solid $blueColor;
+}

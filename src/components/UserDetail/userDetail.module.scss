@@ -1,0 +1,27 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    @include title-style;
+}
+
+.editBtn {
+    width: 116px;
+    height: 27px;
+    color: $white;
+    background-color: $blueColor;
+    border: none;
+    border-radius: $borderRadius;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    @include hover-btns;
+}
